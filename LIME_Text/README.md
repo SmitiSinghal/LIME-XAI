@@ -1,0 +1,6 @@
+# LIME on TEXT
+LIME is very useful to help us understand how our model works not only in a common classification problem with the feature presented in tabular format, but it can also interpret how the model work by looking at the text-formatted input. The important point of using lime is you have to define how the text is preprocessed until it can become a matrix as the input for the model.
+
+The dataset used is the 20 newsgroups dataset. It comprises around 18000 newsgroups posts on 20 topics split in two subsets: one for training (or development) and the other one for testing (or for performance evaluation). The split between the train and test set is based upon a messages posted before and after a specific date.
+
+Through LIME technique, we can interpret how the machine learning model works and interpret the result, how based on the presence of some words, the model will give a higher prediction probability toward a particular newsgroup. For example, what words that will increase the probability for 'Christian' newsgroup, or what words that will drastically decrease the probability for the same. 
